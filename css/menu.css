@@ -78,7 +78,7 @@ html body #footer ul li a.sanslogo {
 @keyframes show_item {
   from {
     opacity: 0;
-    padding-top: -1em;
+    padding-top: 0em;
   }
   to {
     opacity: 1;
