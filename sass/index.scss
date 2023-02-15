@@ -1,5 +1,8 @@
 @import "./base.scss";
-
+@font-face {
+    font-family: "Kimberley";
+    src: url(../fonts/Shrikhand-Regular.otf) format("opentype");
+  }
 
 html {
     $primary-color: #9356DC;
@@ -218,7 +221,7 @@ html {
                     text-decoration: none;
                     /* height: 1em; */
                     cursor: pointer;
-                    scale: 1;
+                    transform: scale(1);
 
 
                     &:hover {

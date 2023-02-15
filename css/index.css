@@ -75,6 +75,10 @@ html body #footer ul li a.sanslogo {
   padding-left: 0px;
 }
 
+@font-face {
+  font-family: "Kimberley";
+  src: url(../fonts/Shrikhand-Regular.otf) format("opentype");
+}
 html {
   /* LOADER */
 }
@@ -261,7 +265,7 @@ html body #header .reservation a.topbutton {
   text-decoration: none;
   /* height: 1em; */
   cursor: pointer;
-  scale: 1;
+  transform: scale(1);
 }
 html body #header .reservation a.topbutton:hover {
   transform: scale(1.06);
