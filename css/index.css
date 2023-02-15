@@ -576,7 +576,7 @@ html body #main section.section__restaurants .articles article .article__bottom 
     text-decoration: none;
     /* height: 1em; */
     cursor: pointer;
-    scale: 1;
+    transform: scale(1);
   }
   html body #main section.section__restaurants h2 {
     font-size: 1.25em !important;
